@@ -1,0 +1,71 @@
+
+.main
+{
+    position: relative;
+    background-color:white;
+    padding: 0.3pc 30pc;
+}
+
+body{
+    font-size: 16px;
+    background-image: url(111.jpg);
+}
+section{
+    width: 1500px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+#container{
+    width: 1400px;
+}
+.box{
+    border: 3px solid black; 
+    max-width: 50px;
+    max-height: 50px; 
+    padding: 10px;
+    line-height: 50px; 
+    text-align: center; 
+    font-size: 1.63em;
+}
+
+#panelOne{
+    float: left; 
+    background-color: rgb(235, 218, 69);
+}
+
+#panelTwo{
+    float: left; 
+    position: relative; 
+    top: 75px; 
+    background-color:rgb(47, 163, 76);
+
+}
+
+.panelThree{
+    float: left; 
+    position: relative; 
+    top: 225px; 
+    background-color: aqua;
+}
+
+.panelFour{
+    float: left; 
+    position: relative; 
+    top: 75px;
+    background-color: chartreuse; 
+}
+
+#panelFive{
+    float: left;
+    background-color: rgb(72, 67, 211); 
+}
+
+#lowerContainer{
+    float: right; 
+    margin-top: 20px;
+}
+
+.bottom{
+    float: left;
+    background-color: indigo; 
+}
